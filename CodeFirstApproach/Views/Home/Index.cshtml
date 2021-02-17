@@ -1,0 +1,10 @@
+﻿@model IEnumerable<CodeFirstApproach.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<a href=" @Url.Action("Index","Student")" class="btn btn-lg btn-success">Student</a>
+<a href=" @Url.Action("Index","User")" class="btn btn-lg btn-success">User</a>
